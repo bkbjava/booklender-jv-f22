@@ -11,4 +11,5 @@ public class SimpleController {
         return "Welcome, Arsen Bekboev";
     }
 
+
 }
