@@ -11,4 +11,24 @@ public class SimpleController {
         return "main";
     }
 
+    @GetMapping("/contact")
+    public String contactPage() {
+        return "contact";
+    }
+
+    @GetMapping("/login")
+    public String loginPage() {
+        return "login";
+    }
+
+    @GetMapping("/register")
+    public String registrationPage() {
+        return "register";
+    }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "hello";
+    }
+
 }
